@@ -1,0 +1,93 @@
+.header{
+	width: 100%;
+	height: 44px;
+	background-color: #958375;
+	font-size: 17px;
+	color: #fff;
+	text-align: center;
+	line-height: 44px;
+	font-weight: bold;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+
+.header_left{
+	width: 10%;
+	height: 44px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-image: url(/header_left.png);
+	background-repeat: no-repeat;
+	background-size: 13px 16px;
+	background-position: center;
+}
+
+.header_right{
+	width: 15%;
+	line-height: 44px;
+	font-size: 15px;
+	color: #fff;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+
+.index{
+	width: 100%;
+	height: 100%;
+	padding-left: 3%;
+	background-image: url(/index.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+
+.index_manage{
+	width: 47%;
+	height: 138px;
+	margin-right: 3%;
+	margin-top: 3%;
+	float: left;
+	background-repeat: no-repeat;
+	background-size: 184px 150px;
+	background-position: center;
+}
+
+.index_expect{
+	width: 97%;
+	height: 120px;
+	margin-bottom: 20px;
+}
+
+.index_basic{
+	background-image: url(/index_basic.png);
+}
+
+.index_inn{
+	background-image: url(/index_inn.png);
+}
+
+.index_picture{
+	background-image: url(/index_picture.png);
+}
+
+.index_room{
+	background-image: url(/index_room.png);
+}
+.index_order{
+	background-image: url(/index_order.png);
+}
+
+.index_account{
+	background-image: url(/index_account.png);
+}
+
+.index_expect{
+	background-image: url(/index_expect.png);
+	background-size: cover;
+}

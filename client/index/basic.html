@@ -1,0 +1,105 @@
+<template name="basic">
+	<div class="header">
+		<a href="/">
+			<div class="header_left"></div>
+		</a>
+		客栈基本信息
+		<div class="header_right" id="md-create">更新</div>
+	</div>
+	<div class="top_top"></div>
+	<div class="basic">
+		<div class="basic_portrait" style="background-image:url({{basic.avatar}})">
+			<input class="basic_portrait_input" type="file" id="md-avatar">
+		</div>
+
+		<div class="basic_title">客栈名称</div>
+		<div class="basic_content">
+			<input id="name" class="basic_input" type="text" value="{{basic.name}}">
+		</div>
+
+		<div class="basic_title">预约电话</div>
+		<div class="basic_content">
+			<input id="bespeak_tel" class="basic_input" type="text"  value="{{basic.bespeak_tel}}">
+		</div>
+
+		<div class="basic_title">微信号</div>
+		<div class="basic_content">
+			<input id="weixin" class="basic_input" type="text"  value="{{basic.weixin}}">
+		</div>
+
+		<div class="basic_title">地区</div>
+		<div class="basic_content">
+			<input id="region" class="basic_input" type="text"  value="{{basic.region}}">
+		</div>
+
+		<div class="basic_title">详细地址</div>
+		<div class="basic_content">
+			<input id="address" class="basic_input" type="text"  value="{{basic.address}}">
+		</div>
+
+		<div class="basic_title">客栈介绍</div>
+		<div class="basic_content">
+			<input id="introduce" class="basic_input" type="text"  value="{{basic.introduce}}">
+		</div>
+
+		<div class="register_next_s">
+			<div class="basic_title">客栈配置</div>
+			<div class="register_next_config">
+				<div class="rn_config_among">
+					<div class="rnca_icon rnca_s1"></div>
+					<div class="rnca_choice"></div>
+				</div>
+				<div class="rn_config_among">
+					<div class="rnca_icon rnca_s2"></div>
+					<div class="rnca_choice"></div>
+				</div>
+				<div class="rn_config_among">
+					<div class="rnca_icon rnca_s3"></div>
+					<div class="rnca_choice"></div>
+				</div>
+				<div class="rn_config_among">
+					<div class="rnca_icon rnca_s4"></div>
+					<div class="rnca_choice"></div>
+				</div>
+				<div class="rn_config_among">
+					<div class="rnca_icon rnca_s5"></div>
+					<div class="rnca_choice"></div>
+				</div>
+				<div class="rn_config_among">
+					<div class="rnca_icon rnca_s6"></div>
+					<div class="rnca_choice"></div>
+				</div>
+				<div class="rn_config_among">
+					<div class="rnca_icon rnca_s7"></div>
+					<div class="rnca_choice"></div>
+				</div>
+				<div class="rn_config_among">
+					<div class="rnca_icon rnca_s8"></div>
+					<div class="rnca_choice"></div>
+				</div>
+				<div class="rn_config_among">
+					<div class="rnca_icon rnca_s9"></div>
+					<div class="rnca_choice"></div>
+				</div>
+				<div class="rn_config_among">
+					<div class="rnca_icon rnca_s10"></div>
+					<div class="rnca_choice"></div>
+				</div>
+				<div class="rn_config_among">
+					<div class="rnca_icon rnca_s11"></div>
+					<div class="rnca_choice"></div>
+				</div>
+				<div class="rn_config_among">
+					<div class="rnca_icon rnca_s12"></div>
+					<div class="rnca_choice"></div>
+				</div>
+				<div class="rn_config_among">
+					<div class="rnca_icon rnca_s13"></div>
+					<div class="rnca_choice"></div>
+				</div>
+			</div>
+		</div>
+		
+		<a href="/logout" class="logout">注销登录</a>
+	</div>
+</template>

@@ -1,0 +1,30 @@
+.room{
+	width: 100%;
+	height: 100%;
+	padding: 0 10px 10px 10px;
+}
+
+.room_type{
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	padding: 10px;
+	margin-top: 10px;
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.room_type_name{
+	width: 100%;
+	line-height: 30px;
+	border-bottom: 1px rgba(0, 0, 0, 0.3) solid;
+	font-size: 15px;
+	color: rgba(0, 0, 0, 0.7);
+	margin-bottom: 10px;
+}
+
+.room_type_config{
+	width: 100%;
+	line-height: 24px;
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.5);
+}

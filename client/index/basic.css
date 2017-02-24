@@ -1,0 +1,155 @@
+.basic{
+	width: 100%;
+	height: 100%;
+	padding: 5%;
+	background-color: #f1efe9;
+}
+
+.basic_portrait{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	margin: auto;
+	line-height: 80px;
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.3);
+	text-align: center;
+	background-color: #ccc;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.basic_portrait_input{
+	-webkit-appearance: none;   
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	opacity: 0;
+}
+
+.basic_title{
+	margin-top: 20px;
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.basic_content{
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px #b1b0ab solid;
+}
+
+.basic_input{
+	-webkit-appearance: none;
+	width: 100%;
+	height: 24px;
+	margin-top: 15px;
+	border: 0;
+	background-color: #f1efe9;
+	padding-left: 10px;
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.logout{
+	display: block;
+	width: 100%;
+	line-height: 30px;
+	background-color: #958375;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	margin-top: 20px;
+	border-radius: 4px;
+}
+
+.register_next_s{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.register_next_config{
+	width: 100%;
+}
+
+.rn_config_among{
+	width: 15%;
+	height: 60px;
+	float: left;
+	margin-right: 5%;
+	margin-top: 15px;
+}
+
+.rnca_icon{
+	width: 30px;
+	height: 30px;
+	margin: auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.rnca_choice{
+	width: 15px;
+	height: 15px;
+	margin: 10px auto;
+	border: 1px #ccc solid;
+	background-repeat: no-repeat;
+	background-size: 8px 6px;
+	background-position: center;
+}
+
+.rnca_s1{
+	background-image: url(rnca_s1.png);
+}
+
+.rnca_s2{
+	background-image: url(rnca_s2.png);
+}
+
+.rnca_s3{
+	background-image: url(rnca_s3.png);
+}
+
+.rnca_s4{
+	background-image: url(rnca_s4.png);
+}
+
+.rnca_s5{
+	background-image: url(rnca_s5.png);
+}
+
+.rnca_s6{
+	background-image: url(rnca_s6.png);
+}
+
+.rnca_s7{
+	background-image: url(rnca_s7.png);
+}
+
+.rnca_s8{
+	background-image: url(rnca_s8.png);
+}
+
+.rnca_s9{
+	background-image: url(rnca_s9.png);
+}
+
+.rnca_s10{
+	background-image: url(rnca_s10.png);
+}
+
+.rnca_s11{
+	background-image: url(rnca_s11.png);
+}
+
+.rnca_s12{
+	background-image: url(rnca_s12.png);
+}
+
+.rnca_s13{
+	background-image: url(rnca_s13.png);
+}
